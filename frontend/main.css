@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+}
+h1 { 
+    color: #3498db; 
+}
+.card-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+}
+.card {
+    background: #34495e; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+    min-width: 200px; 
+}
+.card h2 { 
+    margin-top: 0; 
+    color: #95a5a6; 
+}
+.reading { font-size: 2.5em; 
+    font-weight: bold; 
+    color: #ffffff; 
+}
+.unit { 
+    font-size: 1em; 
+    color: #bdc3c7; 
+}
