@@ -1,7 +1,9 @@
 # CANBusReader
+
 #### Leitor Wi-Fi para Fiat Mobi com ESP32
 
 ## Descrição
+
 Um leitor de dados veiculares (OBD2) de baixo custo, baseado em ESP32, que cria uma interface web acessível por Wi-Fi.
 
 ## Funcionalidades Principais
@@ -16,12 +18,15 @@ Um leitor de dados veiculares (OBD2) de baixo custo, baseado em ESP32, que cria 
 Caso queira implementar mudanças na página web, basta alterar os arquivos no diretório ``` frontend ```. Em seguida, deve-se executar o script em python no terminal da seguinte forma:
 
 #### Arquivo HTML
+
 * ``` python3 ./frontend/main.html ./main/main_html.h MAIN_HTML_H html ```
 
 #### Arquivo CSS
+
 * ``` python3 ./frontend/main.css ./main/main_css.h MAIN_CSS_H css ```
 
 #### Arquivo JS
+
 * ``` python3 ./frontend/main.js ./main/main_js.h MAIN_JS_H js ```
 
 Isto é necessário para converter os códigos em um formato compacto e que o programa entenda.
@@ -37,6 +42,7 @@ Isto é necessário para converter os códigos em um formato compacto e que o pr
 Este projeto é desenvolvido utilizando [Arduino IDE](https://www.arduino.cc/en/software/).
 
 ### Bibliotecas
+
 * ``` ESP32-CAN ```
 * ``` ESPAsyncWebServer ```
 * ``` AsyncTCP ```
